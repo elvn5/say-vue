@@ -1,20 +1,13 @@
 <template>
-  <button @click="signUp">Sign Up</button>
+  <authenticator>
+    <template #default="{ signOut }">
+      <Todos />
+      <button @click="signOut">Sign Out</button>
+    </template>
+  </authenticator>
 </template>
 
 <script setup lang="ts">
-import { Auth } from "aws-amplify";
-
-signUp = async (email) => {
-  try {
-    const result = await Auth.signUp({
-      username: "",
-      password: "",
-      attributes: { email },
-    });
-    console.log("Sign-up success:", result);
-  } catch (error) {
-    console.error("Error signing up:", error);
-  }
-};
+import { Authenticator } from "@aws-amplify/ui-vue";
+import "@aws-amplify/ui-vue/styles.css";
 </script>

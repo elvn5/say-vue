@@ -24,3 +24,8 @@ pnpm-debug.log*
 # Env
 
 .env
+
+# amplify
+.amplify
+amplify_outputs*
+amplifyconfiguration*
