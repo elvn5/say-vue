@@ -3,7 +3,9 @@ frontend:
   phases:
     preBuild:
       commands:
+        - nvm install 20.18.0
         - nvm use 20.18.0
+        - nvm alias default 20.18.0
         - yarn ci
     build:
       commands:
