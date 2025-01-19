@@ -145,7 +145,7 @@
 
 "@aws-amplify/backend-cli@^1.4.7":
   version "1.4.7"
-  resolved "https://registry.npmjs.org/@aws-amplify/backend-cli/-/backend-cli-1.4.7.tgz"
+  resolved "https://registry.yarnpkg.com/@aws-amplify/backend-cli/-/backend-cli-1.4.7.tgz#1661a03d2461a04a614adf0c03422a04f2e336f3"
   integrity sha512-dGlPODfGWdbrgaGtWwuaEzaHWhm9cTn7KGond06G9iGsnRyzNj75NMpjvRFgim/YxKPOp1YPeLGx56xpy6pA9Q==
   dependencies:
     "@aws-amplify/backend-deployer" "^1.1.14"
@@ -243,7 +243,7 @@
 
 "@aws-amplify/backend@^1.13.0":
   version "1.13.0"
-  resolved "https://registry.npmjs.org/@aws-amplify/backend/-/backend-1.13.0.tgz"
+  resolved "https://registry.yarnpkg.com/@aws-amplify/backend/-/backend-1.13.0.tgz#9278822033207e0b5bc5924013c2ae3a0541e08f"
   integrity sha512-BtCDyZgFIAGSQ1Ow7i6mf92vwyBs7gYWswc3bs6PIotsedLf3h6lvcUaN/nkAwQHCCTpgoKPJutYMFb5yMqGtw==
   dependencies:
     "@aws-amplify/backend-auth" "^1.4.2"
@@ -6259,7 +6259,7 @@ available-typed-arrays@^1.0.7:
 
 aws-amplify@^6.12.1:
   version "6.12.1"
-  resolved "https://registry.npmjs.org/aws-amplify/-/aws-amplify-6.12.1.tgz"
+  resolved "https://registry.yarnpkg.com/aws-amplify/-/aws-amplify-6.12.1.tgz#e4fc86b14c607d1efaaa32af7e99e4a4fbfdbcfb"
   integrity sha512-Oe2c+YYLQV/LxyqhFUpmDaERDWC6mlbwSmyBXAQQ5H5ajTxsVp/YGEOTnUxoq6w7tq9mcOkEjraNpyNm/Mj/Zg==
   dependencies:
     "@aws-amplify/analytics" "7.0.66"
@@ -6271,9 +6271,9 @@ aws-amplify@^6.12.1:
     "@aws-amplify/storage" "6.7.7"
     tslib "^2.5.0"
 
-aws-cdk-lib@^2.176.0:
+aws-cdk-lib@^2:
   version "2.176.0"
-  resolved "https://registry.npmjs.org/aws-cdk-lib/-/aws-cdk-lib-2.176.0.tgz"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.176.0.tgz#1ea69b54aef35ddd8f8e57a2059e5bd2f0ba42a3"
   integrity sha512-6Gs2kBaq4elQ4fNAOiCgbD9oOLx/heb/Lp4OVE6Uf7FulYW0DikWJXxR5GWJslTJ4/sCf3UU91q415fc0bruLg==
   dependencies:
     "@aws-cdk/asset-awscli-v1" "^2.2.208"
@@ -6292,9 +6292,9 @@ aws-cdk-lib@^2.176.0:
     table "^6.8.2"
     yaml "1.10.2"
 
-aws-cdk@^2.176.0:
+aws-cdk@^2:
   version "2.176.0"
-  resolved "https://registry.npmjs.org/aws-cdk/-/aws-cdk-2.176.0.tgz"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.176.0.tgz#46966fb466254470f14c42df75ec99fb76b571b8"
   integrity sha512-yRjIXzK2ddznwuSjasWAViYBtBSQbEu6GHlylaC3GHsIUPhrK3KguqIuhdlxjMeiQ1Fvok8REDLCReZJdrSLLg==
   optionalDependencies:
     fsevents "2.3.2"
@@ -6769,9 +6769,9 @@ constant-case@^3.0.4:
     tslib "^2.0.3"
     upper-case "^2.0.2"
 
-constructs@^10.4.2:
+constructs@^10.0.0:
   version "10.4.2"
-  resolved "https://registry.npmjs.org/constructs/-/constructs-10.4.2.tgz"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.4.2.tgz#e875a78bef932cca12ea63965969873a25c1c132"
   integrity sha512-wsNxBlAott2qg8Zv87q3eYZYgheb9lchtBfjHzzLHtXbttwSrHPs1NNQbBrmbb1YZvYg2+Vh0Dor76w4mFxJkA==
 
 convert-source-map@^2.0.0:
@@ -7185,7 +7185,7 @@ esbuild@^0.21.3:
 
 esbuild@^0.24.2:
   version "0.24.2"
-  resolved "https://registry.npmjs.org/esbuild/-/esbuild-0.24.2.tgz"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.24.2.tgz#b5b55bee7de017bff5fb8a4e3e44f2ebe2c3567d"
   integrity sha512-+9egpBW8I3CD5XPe0n6BfT5fxLzxrlDzqydF3aviG+9ni1lDC/OvMHcxqEFV0+LANZG5R1bFMWfUrjVsdwxJvA==
   optionalDependencies:
     "@esbuild/aix-ppc64" "0.24.2"
@@ -10425,9 +10425,9 @@ typescript@^4.8.4:
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz"
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
-typescript@^5.7.3:
+typescript@^5.0.0:
   version "5.7.3"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-5.7.3.tgz"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.7.3.tgz#919b44a7dbb8583a9b856d162be24a54bf80073e"
   integrity sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==
 
 ua-parser-js@^1.0.35:

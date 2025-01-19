@@ -3,6 +3,10 @@ backend:
   phases:
     build:
       commands:
+        - nvm install 20.18.0
+        - nvm use 20.18.0
+        - nvm alias default 20.18.0
+        - yarn install
         - amplify push --yes
         - amplify codegen
   artifacts:
@@ -17,11 +21,9 @@ frontend:
   phases:
     preBuild:
       commands:
-        # Install and use Node.js 20.18.0
         - nvm install 20.18.0
         - nvm use 20.18.0
         - nvm alias default 20.18.0
-        # Install dependencies
         - yarn install
     build:
       commands:
