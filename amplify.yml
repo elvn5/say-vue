@@ -7,8 +7,7 @@ backend:
         - nvm use 20.18.0
         - nvm alias default 20.18.0
         - yarn install
-        - amplify push --yes
-        - amplify codegen
+        - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
   artifacts:
     # You can include or omit backend artifacts as needed
     baseDirectory: .
